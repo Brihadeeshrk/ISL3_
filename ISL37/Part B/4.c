@@ -30,23 +30,13 @@ int main()
     int n, data, choice = 1;
 
     head = NULL;
-
-    /*
-     * Runs forever until user chooses 0
-     */
     while (choice != 0)
     {
-        printf("============================================\n");
-        printf("CIRCULAR LINKED LIST PROGRAM\n");
-        printf("============================================\n");
         printf("1. Create List\n");
         printf("2. Display list\n");
         printf("3. Insert at beginning\n");
         printf("4. Insert at any position\n");
         printf("0. Exit\n");
-        printf("--------------------------------------------\n");
-        printf("Enter your choice : ");
-
         scanf("%d", &choice);
 
         switch (choice)
