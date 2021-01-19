@@ -18,3 +18,8 @@ to compile a java program in Ubuntu, the syntax to execute is a bit different. I
 then to compile the program, we type `javac -d . filename.java`
 and to execute we type `java packagename.filename`
 the above syntax is very important, so make note of it.
+---
+### for ISL37:
+steps to compile and execute c code
+to compile: `cc filename.c`
+to execute, `./a.out`
